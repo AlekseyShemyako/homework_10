@@ -1,6 +1,10 @@
+@font-face{
+	font-family: 'georgia';
+	src: url('./fonts/georgia.ttf');
+}
 body {
+	font-family: 'georgia', normal;
 	margin: 0;
-	/*background-color: #33a5a5;*/
 }
 p {
 	margin: 0;
@@ -15,7 +19,6 @@ h3 {
 	margin: 0 auto;
 	box-sizing: border-box;
 	min-height: 100vh;
-	border: 1px solid green;
 	display: flex;
 	flex-direction: column;
 }
