@@ -6,7 +6,8 @@ p {
 	margin: 0;
 }
 h1,
-h2 {
+h2,
+h3 {
 	margin: 0;
 }
 .box {
@@ -153,11 +154,39 @@ main > h2 {
 	background-color: #303030;
 	padding: 40px 20px 68px;
 }
+.blog {
+	color: #979797;
+}
 .contact h2 {
 	margin-bottom: 36px;
 	font-size: 16px;
 	line-height: 19.2px;
 	color: #bdbdbd;
+}
+.blog h3 {
+	margin-bottom: 17px;
+	font-size: 13px;
+	line-height: 15.6px;
+}
+.blog p {
+	margin-bottom: 11px;
+}
+.blog p:nth-child(3) {
+	color: #666;
+	font-size: 10px;
+	line-height: 12px;
+}
+.blog p:nth-child(4) {
+	font-size: 10px;
+	line-height: 12px;
+}
+.blog p:nth-child(5n) {
+	font-size: 13px;
+	line-height: 20.8px;
+}
+.blog a {
+	text-decoration: none;
+	color: #40aed7;
 }
 .links a {
 	display: flex;
@@ -167,9 +196,23 @@ main > h2 {
 	line-height: 34.45px;
 	text-decoration: none;
 }
+.blog a:after {
+	content: '»';
+}
 .links a:before {
 	content: '»';
 }
+.content p {
+	margin-bottom: 20px;
+	font-size: 13px;
+	line-height: 20.8px;
+	color: #979797;
+}
+.content  p span,
+.contact p span {
+	color: #3fadd7;
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
